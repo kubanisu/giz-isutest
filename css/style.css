@@ -1,0 +1,44 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: sans-serif;
+	font-size: 16px;
+}
+
+
+.wrapper{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+i {
+	margin-bottom: 20px;
+	font-size: 50px;
+}
+.web{
+	text-align: center;
+	
+}
+
+.line{
+	width: 70px;
+	height: 2px;
+	background-color: gray;
+	display: block;
+	margin: 5px auto;
+}
+.web:hover {
+	color:#f79707;
+}
+
+
+
